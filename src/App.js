@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter'
-import Card2 from './Card2'
-import StartsWarsPerson from './StarWarsPerson';
-import StarWarsPerson2 from './StarWarsPerson2';
+// import Counter from './Counter'
+// import Card2 from './Card2'
+// import StartsWarsPerson from './StarWarsPerson';
+// import StarWarsPerson2 from './StarWarsPerson2';
+import Posts from './Post2';
 
 function App() {
   return (
@@ -21,12 +22,8 @@ function App() {
         >
           Learn React
         </a>
-        {/* <Counter message='Hi how you doing?' name='Guy' />
-        <Counter message='Blah' name='Ali' /> */}
-        {/* <Card /> */}
-        {/* <Card2 /> */}
-        {/* <StartsWarsPerson /> */}
-        <StarWarsPerson2 />
+        {/* <StarWarsPerson2 /> */}
+        <Posts />
       </header>
     </div>
   );
